@@ -1,11 +1,6 @@
-$document-font-size:         16px !default;
-$document-line-height:       24px !default;
-$document-color:             #222 !default;
-$document-background-color:  #fff !default;
-
 body {
-  @include font-size($document-font-size, $document-line-height);
+  @include font-size($base-font-size, $base-line-height);
 
-  color: $document-color;
-  background-color: $document-background-color;
+  color: $base-color;
+  background-color: $base-background-color;
 }
