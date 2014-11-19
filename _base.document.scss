@@ -1,4 +1,5 @@
 body {
+  font-family: $base-font-stack;
   @include font-size($base-font-size, $base-line-height);
 
   color: $base-color;
